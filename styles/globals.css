@@ -1,0 +1,290 @@
+@import "docs.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap') ;
+
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy2xcjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy2xcjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ_Oxcjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ_Oxcjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xcjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xcjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ5-xcjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ5-xcjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ0q2cjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ0q2cjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy22cjnj8Q.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy22cjnj9w.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK3nbivU.woff)
+      format("woff"),
+    url(https://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK3nbivM.woff2)
+      format("woff2");
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v9/EYqxmaNOzLlWtsZSScy6UzNpcZGf20NE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v9/EYqxmaNOzLlWtsZSScy6XTNpcZGf2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  font-size: 12px;
+  --neon-text-color: #f40;
+  --neon-border-color: #08f;
+  --neon-mobile-text-color: #ff003c;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+html,
+body {
+  background-size: contain;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  /* background-image: url("../public/images/bg-1600x900.jpg") !important; */
+  overflow: hidden;
+  width: 100vw;
+}
+
+.App {
+  height: 100%;
+}
+
+.App > div {
+  position: relative;
+  overflow: hidden;
+}
+
+.App > div > canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.annotation {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 8px;
+  font-weight: 300;
+  background: black;
+  color: #f0f0f0;
+  padding: 2px 10px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+#wiggle:hover {
+  animation: shake 205ms infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: rotate(-0.5deg);
+  }
+  100% {
+    transform: rotate(0.5deg);
+  }
+}
+#face:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+#megaphone:hover{
+  cursor: pointer;
+transform: rotate(10deg);
+}
+
+.nftheading {
+  font-family: 'Joti One', cursive !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 50px !important;
+  line-height: 80px !important;
+  color: white !important;
+}
+.mintNowHeading{
+  font-family: 'Joti One', cursive !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 32px !important;
+  line-height: 53px !important;
+  position: relative !important;
+  top: -23px !important;
+  left: -3px !important;
+  color: #FF0000 !important;
+}
+.arrow{
+  position: fixed !important;
+  top:125px !important;
+   left:185px !important;
+   width: 50px !important;
+   height: 50px !important
+}
+.mintNowHeading2{
+  font-family: 'Joti One', cursive !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 27px !important;
+  line-height: 53px !important;
+  position: relative !important;
+  top: -23px !important;
+  left: -3px !important;
+  color: #ebebeb !important;
+}
+.mintNowHeading3{
+  font-family: 'Joti One', cursive !important;
+  font-weight: 100 !important;
+  font-size: 20px !important;
+  line-height: 35px !important;
+  position: relative !important;
+  color: #ebebeb !important;
+}
+.mintNowHeading:hover{
+  animation: styles_svg-shadow__45rjf 1.5s ease-in-out infinite alternate;
+}
+.cursoor{
+  cursor: pointer !important;
+}
+
+.speakerTextGrey{
+  filter: grayscale(100%) !important;
+}
+.selectchain-item:hover {
+  font-weight: 650;
+}
+.grayscale {
+  filter: grayscale(1);
+}
