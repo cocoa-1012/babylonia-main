@@ -12,7 +12,6 @@ const Tokenomics: NextComponentType = () => {
       <Image
         className={grayscaleMode === "gray" ? "grayscale" : ""}
         src={tokenomics}
-        fill={true}
         layout="fill"
         objectFit="contain"
         alt="betting"
