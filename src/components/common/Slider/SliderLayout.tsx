@@ -92,7 +92,7 @@ const SliderLayout: NextComponentType<NextPageContext, {}, TProps> = ({
             />
           </Button>
         </Box>
-        <Box maxH="calc(100vh - 160px)" minH="300px" overflowY="scroll">
+        <Box maxH="calc(100vh - 160px)" minH="300px">
           {children}
           {href && (
             <Button
